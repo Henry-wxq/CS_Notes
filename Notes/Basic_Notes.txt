@@ -68,6 +68,7 @@ doc/*.txt	#会忽略 doc/notes, txt_ 但不包括 doc/serverlarch. txt
 10. 操作远程仓库
 	添加远程仓库(先初始化本地仓库，然后与已创建的远程仓库进行对接)
 		git remote add [远端名称] [仓库路径]
+			e.g. remote add origin git@github.com:Henry-wxq/Git_Study.git
 			远端名称，默认时origin，取决于远端服务器配置
 	查看远程仓库
 		git remote
@@ -79,8 +80,16 @@ doc/*.txt	#会忽略 doc/notes, txt_ 但不包括 doc/serverlarch. txt
 		git push --set-upstream [远端名称] [本地分支名]:[远端分支名]
 			推送到远端的同时，建立起和远端分支的关联关系，下次再推的时候可以直接使用git push（用git brach -vv查看是否关联成功）
 		第一次推送的完整代码：git push -f --set-upstream [远端名称] [本地分支名]:[远端分支名]
-		
-			
+	从远端仓库克隆： 即将远程仓库保存到本地
+		git clone [url] [本地目录]
+			e.g. git clone https://github.com/Henry-wxq/Ticket_Snatching.git
+	从远程仓库抓取:抓到本地但不会合并
+		git fetch [远端名称/分支名称]（若后面不写则抓取所有分支）
+		git merge [远端branch]
+	从远程仓库拉取: fetch+merge
+		git pull [远端名称/分支名称]
+
+11. 在IDEA中使用git
 	
 		
 	
