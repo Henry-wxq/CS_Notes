@@ -25,6 +25,6 @@ $ git stage README.md
 git commit -am '[repoB] Move content to a subfolder'
 git push origin master
 ```
-
+[Difference Between 'git commit -am' and 'git commit -m'](./Advanced_Notes.md)
 
 
