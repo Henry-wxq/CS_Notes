@@ -57,7 +57,8 @@ git pull repoB_origin master --allow-unrelated-histories
 ```
 
 4. Exit the vim
-Directly type :wq
+
+  * Directly type :wq
 
 3. Delete the remote **repoB_origin**
 ```
