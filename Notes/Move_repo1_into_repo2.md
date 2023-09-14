@@ -2,12 +2,29 @@
 Assume we have two repositories on git, repoA, and repoB, and we want to make repoB a subdirectory of repoA while maintaining its full history after deleting it.
 
 ****
-## Clone **repoA** and **repoB** on machine
+## Clone repoA** and **repoB on machine
 ```
 $ git clone repoA
-$ git clone repoA
+$ git clone repoB
 ```
 
 ## Copy the content of repoB to a new subfolder in repoB except the .git folder
-### cd to folder **repoB** and create a subfolder called **repoB/**
+1. cd to folder **repoB** and create a subfolder called **repoB**
+```
+$ mkdir repoB
+```
+
+2. Move everything from the parent **repoB** to the child **repoB**(except the .git folder)
+```
+$ git stage repoB/
+$ git stage README.md
+```
+
+3. Commit and push those changes to git
+```
+git commit -am '[repoB] Move content to a subfolder'
+git push origin master
+```
+
+
 
