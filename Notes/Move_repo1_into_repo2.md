@@ -33,7 +33,7 @@ git push origin master
 ```
 $ git remote add (create_a_branch_name) (path_to_repoB)
 ```
- 1. For Example:
+ * For Example:
 ```
 git remote add repoB_origin git@github.com:Henry-wxq/Git_Study.git
 ```
@@ -67,7 +67,12 @@ git remote -vv
 git push origin master
 ```
 
+## Check whether all histories are kept
+![Check](https://github.com/Henry-wxq/Pictures/blob/main/Coding_Pic/git-log.png)
 
+## References
+* [Merge Unrelated Histories](https://stackoverflow.com/questions/45272492/git-is-refusing-to-merge-unrelated-histories-what-are-unrelated-histories)
+* [Moving Repo](https://ahmadatwi.me/2016/04/07/how-to-move-a-git-repository-to-subdirectory-of-another-repository/comment-page-1/)
 
 
 
