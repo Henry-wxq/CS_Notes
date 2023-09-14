@@ -33,7 +33,7 @@ git push origin master
 ```
 $ git remote add (create_a_branch_name) (path_to_repoB)
 ```
-  * For Example:
+&#x0009; * For Example:
 ```
 git remote add repoB_origin git@github.com:Henry-wxq/Git_Study.git
 ```
