@@ -56,6 +56,10 @@ git pull (created_branch_name) (merged_to_branch_name) --allow-unrelated-histori
 git pull repoB_origin master --allow-unrelated-histories
 ```
 
+4. Exit the vim
+
+  * Directly type :wq
+
 3. Delete the remote **repoB_origin**
 ```
 git remote rm (created_branch_name)
