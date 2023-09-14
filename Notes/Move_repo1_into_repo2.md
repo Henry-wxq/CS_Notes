@@ -33,7 +33,7 @@ git push origin master
 ```
 $ git remote add (create_a_branch_name) (path_to_repoB)
 ```
-For Example:
+  * For Example:
 ```
 git remote add repoB_origin git@github.com:Henry-wxq/Git_Study.git
 ```
@@ -43,7 +43,7 @@ git remote add repoB_origin git@github.com:Henry-wxq/Git_Study.git
 ```
 git pull (created_branch_name) (merged_to_branch_name) --allow-unrelated-histories
 ```
-For Example:
+  * For Example:
 ```
 git pull repoB_origin master --allow-unrelated-histories
 ```
@@ -52,7 +52,7 @@ git pull repoB_origin master --allow-unrelated-histories
 ```
 git remote rm (created_branch_name)
 ```
-For Example:
+  * For Example:
 ```
 git remote rm repoB_origin
 ```
