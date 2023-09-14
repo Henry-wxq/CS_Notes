@@ -2,6 +2,7 @@
 Assume we have two repositories on git, repoA, and repoB, and we want to make repoB a subdirectory of repoA while maintaining its full history after deleting it.
 
 ****
+## Steps
 - [ ] Clone repoA** and **repoB on machine
 - [ ] Copy the content of repoB to a new subfolder in repoB except the .git folder
 - [ ] Merge repoA and repoB
