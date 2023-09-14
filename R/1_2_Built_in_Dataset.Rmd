@@ -1,0 +1,18 @@
+# Built-in Dataset in R
+
+## Aim
+
+In order to facilitate the test preventing from creating a new set each time.
+
+## Built-in Dataset
+
+1.  Store in the package called: 'dataset'
+2.  Use help(package='dataset') in console to get more information about the\
+    package
+3.  Type 'data()' in the console can reveal all the data
+4.  Use 'data(package = .packages(all.available = TRUE))' in the console to\
+    list the data sets in all *available* packages.
+    
+## Use Dataset
+
+1. 

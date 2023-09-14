@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tcp服务器</title>
+</head>
+<body>
+	<ol>
+		<li>创建套接字
+		</li>
+		<li>bind绑定ip和port</li>
+		<li>listen使套接字变为可以被动链接</li>
+		<li>accept等待客户端的链接</li>
+		<li>recv/send接收发送数据</li>
+	</ol>
+	<p>等待套接字只负责安排一个新的套接字为其服务</p>
+	<p>收发数据都是用的后面那个套接字</p>
+	<p>接收的只是数据，因为已经绑定了ip和port</p>
+	<p>记得关闭两个套接字</p>
+	<p>QQ</p>
+	<p>你的qq没有绑定，是为了可以多开，可以登陆几个qq</p>
+	<p>注意，发送的数据一定会保存在腾讯的服务器中</p>
+	<img src="images/Screen Shot 2020-11-19 at 11.26.27 AM.png" alt="">
+</body>
+</html>

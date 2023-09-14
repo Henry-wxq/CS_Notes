@@ -1,0 +1,44 @@
+1. 环境
+    1) 真实环境
+        python3
+        • Lib
+            * Site-packages
+            * 标准库
+        • Scripts
+            * pip.exe
+        • python.exe
+    2) 虚拟环境：真实环境的副本，跟真实环境的构造基本相同
+        • 一般会取不同名字；并且不会复制标准库
+        venv1
+        • Lib
+            * Site-packages
+        • Scripts
+            * pip.exe
+            * python.exe
+
+2. venv (3.3版本后的标准库中自带)
+    1) 创建
+        python -m venv (name)
+    2) 进入
+        cd (name)
+    3) 看文件
+        ls/dir
+    4) 激活: cd进入bin/scripts
+        activate   (会提示进入虚拟环境，还是正常用)(其实只要在script中不用激活也可以正常使用
+        虚拟环境，因为path已经到了)
+    5) 后续可在虚拟环境中用pip进行安装
+    6) 去激活
+        deactivate
+
+source /Users/henryw/Desktop/Desktop/Notes/CS_Notes/Python/05_AI/venv_ai/bin/activate
+/Users/henryw/Desktop/Desktop/Notes/CS_Notes/Python/05_AI/venv_ai/bin/python /Applications/PyCharm.app/Contents/plugins/python/helpers/packaging_tool.py install tables==3.4.2
+
+
+3. 必要性：不会安装特别多的包使得其不可控，发生冲突
+
+4. IDE中使用：在解释器中选择虚拟环境下的python.exe即可
+
+
+
+
+

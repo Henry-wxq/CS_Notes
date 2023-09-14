@@ -1,0 +1,40 @@
+1) pytest单元测试框架
+    a) 单元测试框架：针对软件的最小单元进行测试
+        e.g. java: junit, testng
+        e.g. python unittest, pytest
+    b) 作用
+        § 测试发现：从多个文件里面找到测试用例
+        § 测试执行：按照一定的顺序和规则去执行，并声称结果
+        § 测试判断：通过断言判断预期结果和实际结果的差异
+        § 测试报告：统计测试进度，耗时，通过率，生成测试报告
+
+2) 自动化测试框架
+    a) 作用
+        § 提高测试效率，降低维护成本
+        § 减少人工干预，提高测试准确性，增加代码重用性
+        § 核心思想是让不懂代码的人也能通过这个框架去实现自动化测试
+
+    b) pytest单元测试框架与自动化测试框架的关系
+        § 自动化测试框架的组成部分：
+            单元测试框架； pom设计模式； 数据驱动； 关键字驱动
+            全局配置文件的封装；日志监控；selenium，requests二次封装
+            断言，报告邮件，......
+
+3) pytest简介
+    a) 一个python的单元测试框架，比unittest更加灵活
+    b) pytest可以和selenium，requests，appium结合实现web自动化，接口自动化，app自动化
+    c) pytest可以实现测试用例的跳过以及reruns失败用例重试
+    d) pytest可以和allure生成非常美观的测试报告
+    e) pytest可以和jenkins持续集成
+    f) pytest有很多强大插件
+        § pytest
+        § pytest-html：生成html格式的自动化测试报告
+        § pytest-xdist：测试用例分布式执行，多cpu分发
+        § pytest-ordering：用于改变测试用例的执行顺序
+        § pytest-rerunfailures：用例失败后重跑
+        § allure-pytest：用于生成美观的测试报告
+
+        局部：将插件放到requirements.txt中，通过pip install -r requirements.txt下载
+        全局：在总terminal中下载
+
+

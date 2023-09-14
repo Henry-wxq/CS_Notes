@@ -1,0 +1,10 @@
+# 将所需插件输入.txt文档可一次性下载
+# 在下面的terminal中输入pip install -r Requirements.txt
+# 插件名+--version验证有没有装好，这里装的只是局部的，不是全局的
+
+pytest
+pytest-html  # 生成html格式的自动化测试报告
+pytest-xdist  # 测试用例分布式执行（可在多个线程中跑）多cpu分发
+pytest-ordering  # 用于改变测试用例的执行顺序
+pytest-rerunfailures  # 用例失败后重跑
+allure-pytest  # 用于生成美观的测试报告

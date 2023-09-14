@@ -1,0 +1,10 @@
+# Basic writing
+
+1.  \<\<-: 强制赋值到全局变量
+2.  \<-: 相当于=
+3.  In console, typing library('package's name') to use
+4.  help(package='package name') to search for the information regarding this\
+    package
+5.  all functions in R at anyplace should add '()' at the end\
+    e.g. data()
+

@@ -1,0 +1,18 @@
+# In the document
+
+1.  option + '-': \<-
+2.  control + shift + 'm': %>% 
+3.  command + enter: run
+4.  control + 2: change to console
+
+# In the console
+
+1.  control + 'l': clear the screen
+2.  'mtcars' + enter: reveal the inner data lib: 'mtcars'
+3.  control + 向上箭头: 查看console中输入的历史记录;
+4.  可以打上开头再进行查看缩小范围
+5.  esc: 中断当前操作
+6.  option + shift +'k': 显示所有快捷操作
+7.  list.files()命令：查看所有文件
+8.  control + 1: change to source
+9. option + command + i: insert the chunk

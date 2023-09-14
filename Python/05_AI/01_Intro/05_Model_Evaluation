@@ -1,0 +1,17 @@
+1. 分类模型评估
+    1) 准确率：预测正确的数占样本总数的比例
+    2) 精确率：正确预测为正占全部预测为正的比例
+    3) 召回率：正确预测为正占全部正样本的此例
+    4) F1-Score：主要用于评估模型的稳健性
+    5) AUC指标：主要用于评估样本不均衡的情況
+
+2. 回归模型评估
+    1) 均方根误差(RMSE Root Mean Squared Error)(仅能比较误差是相同单位的模型)
+    2) 相对平方误差(RSE Relative Squared Error)(能比较误差不同单位的模型)
+    3) 平均绝对误差(MAE Mean Absolute Error)(仅能比较误差是相同单位的模型)
+    4) 相对绝对误差(RAE Relative Absolute Error)
+    5) 决定系数(Coefficient of Determination)
+
+3. 拟合
+    1) 欠拟合
+    2) 过拟合(over-fitting)

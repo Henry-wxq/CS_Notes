@@ -1,0 +1,107 @@
+1) 默认基础规则
+    a) 模块名必须以test_开头或者以_test结尾
+        e.g. 1_1_Basic_Rules_test
+
+    b) 测试类必须以Test开头,并且不能有init方法
+        e.g. TestLogin
+
+    c) 测试方法必须以test开头
+        e.g. test_01
+
+2) pytest测试用例的运行方式
+    a) 主函数模式
+        § 运行所有命令：
+            pytest.main()
+            e.g. 1_3_All_EG.py
+        § 指定模块：
+            pytest.main(['-vs', '1_1_Basic_Rules_test.py'])
+            e.g. 1_4_Partial_EG.py
+        § 指定目录或文件夹：
+            pytest.main(['-vs', './2_Example2']) (当用例分模块时)
+            e.g. ../0_1_Select_File_EG.py
+        § 通过nodeid指定用例：nodeid由模块名，分隔符，类名，方法名，函数名组成（::为分隔符）
+            pytest.main(['-vs', '1_2_Chloe_test.py::test_04'])
+            e.g. 1_5_Nodeid_EG.py   ../0_1_Select_File.py
+
+    b) 命令行模式(在terminal中)
+        § 运行所有命令：
+            pytest
+        § 指定模块：
+            pytest -vs 1_1_Basic_Rules_test.py
+        § 指定目录或文件夹：
+            pytest -vs ./2_Example2
+        § 通过nodeid指定用例：
+            pytest -vs 1_2_Chloe_test.py::test_04
+
+    c) 通过读取pytest.ini配置文件(最常用，但前两种必须会)
+        § pytest.ini是pytest单元测试框架的核心配置文件，不要有中文出现
+            ± 位置：一般在当前项目的根目录创建，名称必须是pytest.ini
+            ± 编码：必须是ANSI，若报错可以使用notpad++等相关工具修改编码格式
+            ± 作用：改变pytest的默认行为(基础规则)
+            ± 运行规则：
+        § [pytest]
+          addopts = -vs --reruns=2（命令行参数，通过空格进行分隔）
+          testpaths = ./ (测试用例文件夹，以pytest.ini的位置为基础)
+          python_files = 1_.py (配置测试搜索的文件名称，于是开始和结尾可以不用以test_
+                                  或_test)
+          python_classes = Test* (配置测试搜索的测试类名称，于是......)
+          python_functions = test (配置测试搜索的测试函数名称，于是......)
+          e.g. ../pytest.ini
+
+3) pytest运行参数 (命令行模式及主函数模式)
+    a) 使用列表进行输入
+    b) 参数详解
+        § -s：表示输出调试信息, 包括printd打印的信息
+        § -v：现实更详细信息
+        § -vs：这两个参数可以合并一起用
+        § -n：支持多线程或者分布式测试用例
+            pytest.main(['-vs',
+                         './1_Main_Notes/1_2_Chloe_test.py::TestLogin',
+                         '-n=4'])
+            pytest -vs ./1_Main_Notes/1_2_Chloe_test.py::TestLogin -n 4
+            e.g. ../0_2_Multithreading_EG.py
+        § --reruns NUM：失败用例重跑
+            pytest.main(['-vs', './1_Main_Notes/1_6_Chloe_Fail_test.py',
+                         '--reruns=2'])
+            pytest -vs ./1_Main_Notes/1_6_Chloe_Fail_test.py --reruns 2
+            e.g. ../0_3_Reruns_EG.py
+        § -x：只要有一个失败就停止
+            pytest.main(['-vs', './1_Main_Notes/1_6_Chloe_Fail_test.py',
+                         '-x'])
+            pytest -vs ./1_Main_Notes/1_6_Chloe_Fail_test.py -x
+        § --maxfail NUM：只要失败NUM次就停止
+            pytest.main(['-vs', './1_Main_Notes/1_6_Chloe_Fail_test.py',
+                         '--maxfail=2'])
+            pytest -vs ./1_Main_Notes/1_6_Chloe_Fail_test.py --maxfail 2
+        § -k：根据测试用例的部分字符串指定测试用例
+            pytest -vs ./1_Main_Notes/1_6_Chloe_Fail_test.py -k '02'
+
+4) pytest执行用例顺序：
+    a) 默认：从上到下
+    b) 改变顺序：@pytest.mark.run(order=1)   需要安装pytest-ordering插件
+        e.g. 1_7_Chloe_Consequence_test.py
+
+5) 分组执行:
+    a) 应用：
+        § 冒烟测试：is preliminary testing to reveal simple failures severe enough
+         to, for example, reject a prospective software release. 所以如果不通过，
+         则打回开发那边重新开发
+        § 分模块执行
+        § 分接口和web执行
+
+    b) 实现
+        § 在pytest.ini中配置标记名称：
+            markers =
+                smoke
+                usermanage
+            e.g. ../pytest.ini
+        § 在相应文件中进行标记：
+            @pytest.mark.smoke
+            @pytest.mark.usermanage
+            e.g. ./1_8_Smoke_1_test.py; ../2_Example2/1_1_Smoke_2_test.py
+        § 命令行中输入:
+            pytest -vs -m 'smoke'
+            pytest -vs -m 'smoke or usermanage'  (同时运行多个组加or即可)
+
+6) 跳过测试用例
+

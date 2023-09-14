@@ -1,0 +1,33 @@
+% 文本的类型：article; book; report; letter
+\documentclass{article}
+
+% 导入宏包
+\usepackage{amsmath}
+
+% 上面为导言区
+\begin{document}
+	% 1. LaTex中如果想要分段，必须在中间空出一行，不然会自动连接（上下对比）
+	
+	Intelligence out of diligence, genius is gained by accumulation.
+	Fractal, Infinite Series, Visual Python with Math……Using understandable Chinese & English share those with you. Using comprehensive articulation make you and me stroll along Math and Computer Science!
+	
+	Intelligence out of diligence, genius is gained by accumulation.
+	
+	Fractal, Infinite Series, Visual Python with Math……Using understandable Chinese & English share those with you. Using comprehensive articulation make you and me stroll along Math and Computer Science!
+	
+	% 2. 反斜杠加上符号可以正常输入符号
+	\% \{......\} \$  
+	
+	% 3. 行间公示与行内公式(都是用美元符号)
+	Inline: $a^2 + b^2 = c^2$
+	
+	It won't affect the format
+	
+	outline: $$a^2 + b^2 = c^2$$
+	
+	The formula will be in the middle of the line.
+	
+	% 4. 若想输入反斜杠
+	$\backslash$
+	
+\end{document}
