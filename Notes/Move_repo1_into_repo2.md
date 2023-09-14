@@ -21,10 +21,17 @@ $ git stage README.md
 ```
 
 3. Commit and push those changes to git
+[Difference Between 'git commit -am' and 'git commit -m'](./Advanced_Notes.md)
 ```
 git commit -am '[repoB] Move content to a subfolder'
 git push origin master
 ```
-[Difference Between 'git commit -am' and 'git commit -m'](./Advanced_Notes.md)
 
+## Merge repoA and repoB
+1. Add a remote branch with the content of repoB
+```
+$ git remote add (create_a_branch_name) (path_to_repoB)
+```
+
+2. 
 
