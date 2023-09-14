@@ -37,7 +37,7 @@ git push origin master
 
 ## Merge repoA and repoB
 1. Add a remote branch with the content of repoB
-[Note for 'git remote add'](./1_Basic_Notes.md)
+[Note for 'git remote add'](../Notes/1_Basic_Notes.md)
 ```
 $ git remote add (create_a_branch_name) (path_to_repoB)
 ```
@@ -47,7 +47,7 @@ git remote add repoB_origin git@github.com:Henry-wxq/Git_Study.git
 ```
 
 2. Pull the **repoA** maintaining its history
-[Note for --allow-unrelated-histories](./2_Advanced_Notes.md)
+[Note for --allow-unrelated-histories](../Notes/2_Advanced_Notes.md)
 ```
 git pull (created_branch_name) (merged_to_branch_name) --allow-unrelated-histories
 ```
