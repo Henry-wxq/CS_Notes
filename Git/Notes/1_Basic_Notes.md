@@ -1,5 +1,21 @@
+0. 对Git进行基本配置
+	1. 配置用户信息（名字及邮箱）
+	```
+	git config --global user.name '[Name]'
+	git config --global user.email '[Email]'
+	```
+	2. 为常用指令配置别名
+	打开用户目录，创建.bashrc文件，或者在git bash中执行touch ~/。bashrc
+	```
+	#用于输出git提交日志
+	alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
+	#用于输出当前目录所有文件及基本信息
+	alias ll='ls -al'
+	```
+
+
 1. 克隆，即将远程仓库保存到本地
-	git clone [url]
+	git clone [url]（建议使用SSH）
 	e.g. git clone https://github.com/Henry-wxq/Ticket_Snatching.git
 
 2. 版本回退(版本切换)
@@ -90,7 +106,7 @@ doc/*.txt	#会忽略 doc/notes, txt_ 但不包括 doc/serverlarch. txt
 		git pull [远端名称/分支名称]
 
 11. 在IDEA中使用git
-	
+	将idea中terminal改成git bash：Setting - Tool - Terminal - shell path改成Git/bin/bash.exe所在目录
 		
 	
 	
