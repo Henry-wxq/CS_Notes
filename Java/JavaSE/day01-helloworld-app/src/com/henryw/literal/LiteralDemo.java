@@ -1,5 +1,7 @@
 package com.henryw.literal;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class LiteralDemo {
     public static void main(String[] args) {
         // 目标：掌握常见数据在程序中的书写格式
@@ -15,10 +17,17 @@ public class LiteralDemo {
         // 错误字符
         // System.out.println('  ');
         // System.out.println('两个');
-        // 特殊字符： \m 换行; \t tab
+        // 特殊字符： \n 换行; \t tab
         System.out.println('中');
         System.out.println('\n');
         System.out.println('国');
+
+        // 4. 字符串：必须用双引号围起来，里面的内容可以随意
+        System.out.println("         ");
+
+        // 5. 布尔值：只有两个值 true false
+        System.out.println(true);
+        System.out.println(false);
 
     }
 }
