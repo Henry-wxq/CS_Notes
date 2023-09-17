@@ -5,7 +5,7 @@
 	git config --global user.email '[Email]'
 	```
 	2. 为常用指令配置别名
-	打开用户目录，创建.bashrc文件，或者在git bash中执行touch ~/。bashrc
+	打开用户目录，创建.bashrc文件，或者在git bash中执行touch ~/.bashrc
 	```
 	#用于输出git提交日志
 	alias git-log='git log --pretty=oneline --all --graph --abbrev-commit'
