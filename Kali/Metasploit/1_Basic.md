@@ -24,7 +24,8 @@ msfconsole
 Give the procedure of using ms17_010 as an example which damages a lot in 2017. ms17 means it's a leak in 2017, 010 means it's the number 10 leak.
 1. Choose and use the selected module
 ```
-
+# Search for the module
+search ms17_010
 
 
 
