@@ -26,10 +26,8 @@ Give the procedure of using ms17_010 as an example which damages a lot in 2017. 
 ```
 # Search for the module
 search ms17_010
-
-
-
 ```
+![Sample_1](./pic/pic_1_1.png)
 
 
 
