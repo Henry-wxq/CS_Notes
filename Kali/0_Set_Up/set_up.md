@@ -7,7 +7,10 @@
 3. Enable Virtualization: When find the place to turn on, press enter and choose enable
 
 ****
-## Install Kali Linux on Windows
+## Set up the environment
+1. Download the VMware
+2. Download the Kali from website
+3. In VMware, open Kali
 
 
 
