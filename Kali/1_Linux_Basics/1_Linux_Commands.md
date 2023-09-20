@@ -6,7 +6,7 @@
 ## Terminal(Commands)
 [All Linux Commands](https://www.mediacollege.com/linux/command/linux-command.html)
 
-[Website that Explain Linux Command](explainshell.com)
+[Website that Explain Linux Command](https://explainshell.com/)
 1. View the words Bigger: Ctrl + Shift + '+'
 2. Print the current working path: pwd
 3. Ge the mannual of [command name]: man + [command name]
