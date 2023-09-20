@@ -5,6 +5,7 @@
 
 ## Terminal(Commands)
 [All Linux Commands](https://www.mediacollege.com/linux/command/linux-command.html)
+
 [Website that Explain Linux Command](explainshell.com)
 1. View the words Bigger: Ctrl + Shift + '+'
 2. Print the current working path: pwd
