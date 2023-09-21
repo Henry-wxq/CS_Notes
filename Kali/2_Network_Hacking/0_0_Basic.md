@@ -16,4 +16,11 @@
             1. Wireless Chipset('Brains', 'Capability')
                   1. Atheros AR9271(Good except no 5Ghz Support)(e.g. Alfa AWUS036NHA)
                   2. Realtek RTL8812AU(Good except difficult installation(e.g. Alfa AWUS036ACH))
-
+2. Setting
+      1. Before plug in the Wireless Adapter: Vmware - Right Click the Kali Machine - Settings - Add - USB Controller - USB compatibility: USB 3.1; Show all USB input devices - OK
+      2. Start Kali - Terminal - ifconfig
+            1. eth0: virtual ethernet interface, created by VMware for the cirtual machine through the virtual NOC network
+            2. lo: virtual interface, cirtual loopback interface used in Linux
+      3. Plug in the Wireless Adapter -  Connect to virtual Machine
+      4. igconfig
+            1. wlan0(exists then connection is done): wireless adapter just connected to Kali
