@@ -7,4 +7,4 @@ Go to VMware and open it
 
 Right click and go to setting to the modify the memory to 2GB
 
-Default Password: Passw0rd
+Default Password: Passw0rd!
