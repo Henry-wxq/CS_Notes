@@ -7,6 +7,7 @@ import java.util.jar.JarOutputStream;
  * 自增：++，对变量自身的值加一
  * 自减：--，对变量自身的值减一
  * 单独使用时放在变量前后都可以
+ * 但是非单独使用会有区别
  */
 
 public class OperatorDemo2 {
