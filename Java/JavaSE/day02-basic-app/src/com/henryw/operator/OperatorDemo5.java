@@ -10,6 +10,7 @@ import org.w3c.dom.ls.LSOutput;
  * ^: 逻辑异或，先后结果相同时返回false，不同时返回true
  * &&: 双与，左边为false，右边不执行
  * ||: 双或，左边为true，右边不执行
+ * 双与优先级高于双或
  */
 
 public class OperatorDemo5 {
