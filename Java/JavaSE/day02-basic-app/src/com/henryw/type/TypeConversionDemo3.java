@@ -3,6 +3,7 @@ package com.henryw.type;
 /**
  * 强行类型转换：强行将类型范围大的变量，数据赋值给类型范围小的变量
  * 数据类型 变量2 = (数据类型) 变量1
+ * 可能会出现数据丢失
  */
 
 public class TypeConversionDemo3 {
