@@ -37,6 +37,5 @@ public class OperatorDemo2 {
         int rs2 = j++;
         System.out.println(rs2); // 10
         System.out.println(j); // 11
-
     }
 }
