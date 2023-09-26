@@ -1,7 +1,5 @@
 package com.henryw.operator;
 
-import org.w3c.dom.ls.LSOutput;
-
 /**
  * 逻辑运算符
  * &: 逻辑与, 两边都是true才返回true，左右都要执行
