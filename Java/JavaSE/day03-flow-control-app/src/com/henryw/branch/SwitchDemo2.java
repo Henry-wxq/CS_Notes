@@ -6,7 +6,6 @@ package com.henryw.branch;
  * 1. 先执行表达式的值，再拿着这个值去与case后的值进行匹配
  * 2. 与哪个case后的值匹配为true就执行哪个case块的代码，遇到break就跳出switch分支
  * 3. 如果全部case后的值与之相匹配都是false，则执行default块的代码
- *
  * 当条件是一个一个值比较的时候，switch分支更合适：格式良好，性能较好
  * 当条件是区间的时候，应该用if分支
  */
