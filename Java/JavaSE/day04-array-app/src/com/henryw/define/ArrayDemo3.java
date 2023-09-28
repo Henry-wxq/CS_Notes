@@ -20,7 +20,7 @@ public class ArrayDemo3 {
         for (int i = 0; i < sold_array.length; i++) {
             sum += sold_array[i];
         }
-        System.out.println(sum);
+        System.out.println("销售总额为：" + sum);
     }
 
 }
