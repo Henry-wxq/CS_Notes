@@ -17,7 +17,7 @@ package com.henryw.define;
 public class ArrayDemo1 {
     public static void main(String[] args) {
         // 完整
-        int[] age_array = new int[]{19, 20, 25, 23, 21, 18}; // 是一个数组类型的变量
+        int[] age_array = new int[]{19, 20, 25, 23, 21, 18}; // 是一个数组类型的变量，存储的是访问数组的内存地址
         double[] grade_array = new double[]{95, 88.5, 86.5, 80.5};
         System.out.println(age_array); // [I@e9e54c2
         /*
