@@ -8,5 +8,10 @@ public class Test {
         s1.setScore(99);
         System.out.println(s1.getName());
         System.out.println(s1.getScore());
+
+        System.out.println("-------------------------");
+
+        StudentOperator operator = new StudentOperator(s1);
+        operator.printPass();
     }
 }
