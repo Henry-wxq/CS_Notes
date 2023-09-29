@@ -2,6 +2,8 @@ package com.henryw.branch;
 
 /**
  * if, else if, else
+ *
+ * 若只有if，else，可以使用三元运算符，更加的专业
  */
 
 public class IfDemo1 {
