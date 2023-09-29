@@ -10,7 +10,7 @@ package com.henryw.encapsulation;
  */
 
 public class Student {
-    // 类中的变量隐藏的时候需要创建set...方法和get...方法
+    // 类中的变量隐藏的时候若有需要，需要创建set...方法和get...方法
     private double score;
 
     public void setScore(double score) {
