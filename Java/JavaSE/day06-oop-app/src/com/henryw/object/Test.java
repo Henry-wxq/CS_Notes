@@ -1,7 +1,7 @@
 package com.henryw.object;
 
 /**
- * 右键Student.java放到右边窗口
+ * 对象本质上是一种特殊的数据结构，下面相当于是创建了s1和s2的学生表
  */
 
 public class Test {

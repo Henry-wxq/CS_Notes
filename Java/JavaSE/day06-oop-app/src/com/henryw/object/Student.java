@@ -2,7 +2,9 @@ package com.henryw.object;
 
 /**
  * 面向对象编程：先创建一个类结构，开发一个个对象，把数据交给对象，再调用对象的方法来完成对数据的处理
- * Test.java
+ * class也就是类，也成为对象的设计图(或者对象的模板)
+ * 这里相当于是一张空的学生表
+ * Test.java中相当于是给两个学生表中添上了数据
  */
 
 public class Student {
