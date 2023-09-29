@@ -1,4 +1,4 @@
-package com.henryw.object;
+package com.henryw.quickstart;
 
 /**
  * 面向对象编程：先创建一个类结构，开发一个个对象，把数据交给对象，再调用对象的方法来完成对数据的处理
