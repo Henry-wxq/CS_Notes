@@ -17,5 +17,12 @@ public class Test {
         s2.name = "Michelle";
 
         System.out.println(s1.name); // Michelle
+        System.out.println(Student.name); // Michelle
+
+        // 3. 实例变量的用法：属于每个对象
+        // 对象.实例对象 (不可通过类名访问，因为属于对象)
+        s1.age = 23;
+        s2.age = 18;
+        System.out.println(s1.age); // 23
     }
 }
