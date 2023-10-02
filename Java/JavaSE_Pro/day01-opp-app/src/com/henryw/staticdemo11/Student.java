@@ -2,6 +2,18 @@ package com.henryw.staticdemo11;
 
 /**
  * 有无static修饰成员变量
+ *
+ * 类变量的应用场景：在开发中，如果某个数据只需要一份，且希望能够被共享(访问，修改)，则该数据可以定义成类变量来记住
+ * e.g. 系统启动后，要求用户类可以记住自己创建了多少个用户对象了:
+ * public class User{
+ *     // 类变量
+ *     public static int number;
+ *
+ *     // 构造器
+ *     public User{
+ *         User.number++; // 可以直接写number++, 因为在同一个类中访问自己的类变量，可以省略类名不写
+ *     }
+ * }
  */
 
 public class Student {
