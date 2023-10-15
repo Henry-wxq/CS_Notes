@@ -6,12 +6,20 @@ package com.henryw.extenddemo7;
 
 public class Test2 {
     public static void main(String[] args) {
-        Teacher t = new Teacher();
+        Teacher t = new Teacher("Henry", 20, "Java"); // 此时成员变量有3个
+        System.out.println(t.getName());
+        System.out.println(t.getAge());
+        System.out.println(t.getSkill());
     }
 }
 
 class Teacher extends People{
     private String skill;
+
+    public Teacher(String name, int age, String skill){
+        super(name, age); // 使用父类构造器进行赋值
+        this.skill = skill;
+    }
 
     public String getSkill() {
         return skill;
