@@ -27,6 +27,8 @@ class Student{
 
     public Student(String name, int age){
         this(name, age, "SCIE"); // 调用兄弟构造器
+        // 不可以再一个构造器内既出现this()，又出现super()， 因为兄弟构造器中已经默认包含了super()，不能同时调用两次super()
+        // 而且super()和this()都需要在第一行
     }
 
     public Student(String name, int age, String schoolName) {
