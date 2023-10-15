@@ -1,5 +1,9 @@
 package com.henryw.singleinstance;
 
+/**
+ * 饿汉式单例：拿对象时，对象已经创建好了
+ */
+
 public class A {
     // 2. 定义一个类变量记住类的一个对象
     private static A a = new A();
