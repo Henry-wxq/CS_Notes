@@ -17,7 +17,7 @@ package com.henryw.finaldemo1;
  * final修饰引用类型的变量，变量存储的地址不能被改变，但是地址所指向对象的内容是可以被改变的
  */
 
-public class Test {
+public class Test1 {
     public static final String School_Name = "UOT";
 
     public static void main(String[] args) {
