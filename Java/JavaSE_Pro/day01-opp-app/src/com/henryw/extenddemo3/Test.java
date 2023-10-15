@@ -2,7 +2,7 @@ package com.henryw.extenddemo3;
 
 /**
  * Java是单继承的：一个类中只能继承一个直接父类；java中的类不支持多继承，但是支持多层继承
- * Object类是java中所有类的祖宗，我们写的任何一个类，都是Object类的子类或者子孙类
+ * Object类是java中所有类的祖宗，我们写的任何一个类，都是Object类的子类或者子孙类，可以调用Object类的方法
  */
 
 public class Test {
