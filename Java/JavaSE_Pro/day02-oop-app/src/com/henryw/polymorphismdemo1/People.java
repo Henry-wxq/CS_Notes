@@ -1,4 +1,4 @@
-package com.henryw.polymorphism;
+package com.henryw.polymorphismdemo1;
 
 public class People {
     public String name = "People";

@@ -1,4 +1,4 @@
-package com.henryw.polymorphism;
+package com.henryw.polymorphismdemo1;
 
 /**
  * 多态
@@ -12,6 +12,9 @@ package com.henryw.polymorphism;
  *
  * 注意
  * Java中的成成员变量不存在多态性，该咋样就咋样
+ *
+ * 使用多态的好处
+ * 在多态形式下，右边对象是解耦合的，便于扩展和维护
  */
 
 public class Test {

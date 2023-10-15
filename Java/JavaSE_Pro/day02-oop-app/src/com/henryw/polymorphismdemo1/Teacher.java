@@ -1,4 +1,4 @@
-package com.henryw.polymorphism;
+package com.henryw.polymorphismdemo1;
 
 public class Teacher extends People{
     public String name = "Teacher";
