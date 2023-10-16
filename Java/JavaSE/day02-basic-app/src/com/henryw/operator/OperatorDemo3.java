@@ -10,7 +10,7 @@ public class OperatorDemo3 {
         // a += b; a = (a's type) a + b
         int a = 10;
         double b = 2.0;
-        System.out.println(a += b);
+        System.out.println(a += b); // 10
 
         // a -= b;
         // a *= b;
