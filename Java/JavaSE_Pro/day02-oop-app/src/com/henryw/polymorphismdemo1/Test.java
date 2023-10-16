@@ -11,7 +11,7 @@ package com.henryw.polymorphismdemo1;
  * 3. 存在方法重写
  *
  * 注意
- * Java中的成成员变量不存在多态性，该咋样就咋样
+ * Java中的成员变量不存在多态性，该咋样就咋样
  */
 
 public class Test {
@@ -19,6 +19,7 @@ public class Test {
         // 1. 对象多态
         People p1 = new Teacher(); // 小范围给大范围
         p1.run(); // 识别技巧：编译看左边，运行看右边，即编译时，看的时是People中有没有run，运行时时运行的Teacher中的run
+        // 编译看左边包括当一个method需要input是Teacher的时候，因为p1是refer to People的，所以不能当作input
 
         People p2 = new Student();
         p2.run(); // 识别技巧：编译看左边，运行看右边
@@ -28,3 +29,4 @@ public class Test {
         System.out.println(p2.name); // People
     }
 }
+
