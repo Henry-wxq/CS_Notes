@@ -26,5 +26,10 @@ public class Test {
         A a3 = A.valueOf("Z");
         System.out.println(a3.name()); // Z
         System.out.println(a3.ordinal()); // 索引
+
+        System.out.println("-------------------------------------");
+
+        B y = B.Y;
+        y.go();
     }
 }
