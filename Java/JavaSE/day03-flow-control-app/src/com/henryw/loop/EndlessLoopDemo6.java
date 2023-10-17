@@ -6,7 +6,7 @@ package com.henryw.loop;
 
 public class EndlessLoopDemo6 {
     public static void main(String[] args) {
-        // for looop
+        // for loop
 //        for ( ; ; ) {
 //            System.out.println("Hello World");
 //        }

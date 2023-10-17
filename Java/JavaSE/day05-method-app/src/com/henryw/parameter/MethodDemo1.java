@@ -8,7 +8,7 @@ public class MethodDemo1 {
     public static void main(String[] args) {
         int a = 10;
         change(a);
-        System.out.println("main:" + a); // 10
+        System.out.println("main: " + a); // 10
     }
 
     public static void change(int a) {
