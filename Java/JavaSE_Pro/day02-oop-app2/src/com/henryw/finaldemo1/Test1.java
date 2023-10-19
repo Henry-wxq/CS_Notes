@@ -42,7 +42,7 @@ public class Test1 {
     }
 }
 
-// 1. final修饰类，类不能被继承了; 又是用于工具类
+//// 1. final修饰类，类不能被了; 又是用于工具类
 final class A{}
 //class B extends A{}
 
