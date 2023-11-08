@@ -6,3 +6,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Ignore .xml
+*.xml
+
+# Ignore the files in out folder
+out/
+
+
