@@ -18,7 +18,7 @@ import java.util.Iterator;
  * - Iterator<E> iterator()：返回集合中的迭代器对象，该迭代器对象默认指向当前集合中的第一个元素
  *
  * 迭代器的常用方法：
- * - boolean hasNext()：询问集合中是否还有下一个元素，如果有就返回true，没有就返回false
+ * - boolean hasNext()：询问集合中当前位置是否有元素存在，如果有就返回true，没有就返回false
  * - E next()：获取当前指向的元素，并且让迭代器指向下一个元素
  */
 
