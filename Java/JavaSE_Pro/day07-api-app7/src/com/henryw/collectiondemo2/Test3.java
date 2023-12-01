@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.function.Consumer;
 
 /**
- * Lambda表达式: JDK8开始的新技术
+ * Lambda表达式: JDK8开始的新技术, 用来遍历map集合很好用
  * 1. Lambda表达式是一个匿名函数，将函数作为一个方法的参数进行传递
  *
  * 需要使用collection的如下方法来完成, 继承的是Iterable接口的方法
