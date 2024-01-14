@@ -1,2 +1,4 @@
-package com.henryw.mapdemo3;public class Test {
+package com.henryw.mapdemo3;
+
+public class Test {
 }

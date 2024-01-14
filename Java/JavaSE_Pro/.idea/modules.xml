@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/day03-oop-app3/day03-oop-app3.iml" filepath="$PROJECT_DIR$/day03-oop-app3/day03-oop-app3.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04-api-app4/day04-api-app4.iml" filepath="$PROJECT_DIR$/day04-api-app4/day04-api-app4.iml" />
       <module fileurl="file://$PROJECT_DIR$/day05-api-app5/day05-api-app5.iml" filepath="$PROJECT_DIR$/day05-api-app5/day05-api-app5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day06-api-app6/day06-api-app6.iml" filepath="$PROJECT_DIR$/day06-api-app6/day06-api-app6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-api-app7/day07-api-app7.iml" filepath="$PROJECT_DIR$/day07-api-app7/day07-api-app7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10-test-app10/day10-test-app10.iml" filepath="$PROJECT_DIR$/day10-test-app10/day10-test-app10.iml" />
     </modules>
   </component>
 </project>
