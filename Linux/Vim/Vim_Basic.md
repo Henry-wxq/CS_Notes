@@ -12,7 +12,7 @@
 	2. 安装VimPlug：在google上搜索VimPlug，进入其github界面，复制对应系统的相应代码复制进行安装
 	3. 需要在Ubuntu系统上先安装Curl: `sudo apt-get install curl`
 	4. 回到配置文件: `nvim ~/.config/nvim/init.vim`
-	5. 复制Github VimPlug markdown上Example对应的Example中开头和末尾的两行: `call plug#begin('~/.vim/plugged')`; `call plug#end()`
+	5. 复制Github VimPlug markdown上Example对应的Example中开头和末尾的两行: `call plug#begin()`; `call plug#end()`
 	6. 在这两行中间复制粘贴需要安装的插件的代码，从VimAwesome上进行复制: `Plug 'scrooloose/nerdtree'`
 	7. 退出配置文件，再重新进入，进入命令模式: `PlugInstall` (可以使用`Tab`自动补全)
 	8. 使用`:q`退出安装完成的界面
