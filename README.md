@@ -1,7 +1,7 @@
 # CS_Notes
 
 ## Set Up
-### Current Computer: Macbook Pro - M3 Max
+### Device: Macbook Pro - M3 Max
 ### 
 
 
