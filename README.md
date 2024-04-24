@@ -1,6 +1,6 @@
 # CS_Notes
 
-## Computer Set Up
+## Set Up
 ### Current Computer: Macbook Pro - M3 Max
 ### 
 
