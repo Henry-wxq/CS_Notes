@@ -19,8 +19,22 @@
         5. Zoom
         6. Bilibili
         7. Google Chrome
+        8. Youdao Translate
+        9. slack
       
-        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome`
+        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack`
+    2. IDEs
+        1. Pycharm
+        2. IntelliJ
+        3. DataSpell
+        4. VScode
+        5. Rstudio
+      
+        `brew install --cask pycharm intellij-idea dataspell visual-studio-code rstudio`
+3. Enviroment Setting
+   1. Git
+
+   `brew install git`
 
 ---
 
