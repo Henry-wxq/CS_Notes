@@ -10,15 +10,17 @@
 
     `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
-2. Install Software
-    1. Basic apps:
+2. Install Software & IDE
+    1. Basic Softwares:
         1. Wechat
         2. Tencent Meeting
         3. QQ
-        4. 
+        4. Notion
+        5. Zoom
+        6. Bilibili
+        7. Google Chrome
       
-        `brew install --cask wechat tencent-meeting qq `
-
+        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome`
 
 ---
 
