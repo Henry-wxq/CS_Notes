@@ -34,7 +34,15 @@
 3. Enviroment Setting
    1. Git
 
-   `brew install git`
+   `brew install git`  \# Set the user.name, user.email, ssh manually
+
+   2. Anaconda
+
+   `brew install --cask anaconda`
+
+   3. R
+
+   `brew install r`
 
 ---
 
