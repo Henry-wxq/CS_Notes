@@ -44,6 +44,11 @@
 
    `brew install r`
 
+4. .gitignore
+```
+
+```
+
 ---
 
 
