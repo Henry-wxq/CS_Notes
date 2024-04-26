@@ -15,3 +15,6 @@
 ## Rules
 1. Try not have more than one h1 tag.
 2. Don't skip a level when creating a head level.
+
+## Sources
+[Source for Web Developing](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height)
