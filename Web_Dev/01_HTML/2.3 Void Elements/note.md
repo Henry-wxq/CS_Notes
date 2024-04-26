@@ -20,3 +20,5 @@
 
 [Difference Checker](https://www.diffchecker.com/)
 
+## Rules
+1. Forward slash is not nessesary inside the tag
