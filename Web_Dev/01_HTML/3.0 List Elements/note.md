@@ -20,7 +20,7 @@ List Tags goes on different lines and inside them are the list item tags.
 </ol>
 ```
 
-## Attribute of li
+### Attribute of li for Ordered list
 ```
-value="3" # start with 3
+<li value="3">List Item</li> # item with number 3
 ```
