@@ -3,6 +3,10 @@
 Style sheet: a type of language, allow us to specify how things should look in our website
 e.g. CSS, SASS, LESS
 
+```
+“property 1: value 1; property 2: value 2; ...”
+```
+
 ## Add CSS Into HTML
 ### Inline
 #### Feature
