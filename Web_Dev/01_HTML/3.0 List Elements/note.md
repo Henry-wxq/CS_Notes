@@ -19,3 +19,6 @@ List Tags goes on different lines and inside them are the list item tags.
 	<li>Item 3</li>
 </ol>
 ```
+
+## Attribute of li
+value="3" # start with 3
