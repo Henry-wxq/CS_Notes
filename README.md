@@ -21,6 +21,7 @@
         7. Google Chrome
         8. Youdao Translate
         9. slack
+        10. discord
       
         `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack`
     2. IDEs
