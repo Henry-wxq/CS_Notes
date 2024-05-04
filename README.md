@@ -23,7 +23,7 @@
         9. slack
         10. discord
       
-        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack`
+        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack discord`
     2. IDEs
         1. Pycharm
         2. IntelliJ
