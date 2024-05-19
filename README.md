@@ -22,8 +22,9 @@
         8. Youdao Translate
         9. slack
         10. discord
+        11. Deepl
       
-        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack discord`
+        `brew install --cask wechat tencent-meeting qq notion zoom bilibili google-chrome youdaodict slack discord deepl`
     2. IDEs
         1. Pycharm
         2. IntelliJ
