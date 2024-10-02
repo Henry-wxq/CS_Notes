@@ -45,8 +45,15 @@
    3. R
 
    `brew install r`
-
-4. .gitignore
+   
+       1. Open VSCode, in Extension, Download R
+       2. In Terminal, firstly, type `R`
+       3. Secondly, type `R.home("bin")` to get the path of where r binary is
+       4. Go to extensions in vscode, find R, at the right corner, Entension Setting, copy the path to it and add `/R`, i.e., `path to R/R`
+       5. Go the the left corner of vscode, in the command palettes, type selection, to change the running into `shift + enter`
+       6. Radian Download: 
+       
+5. .gitignore
 ```
 # Compiled class file
 *.class
