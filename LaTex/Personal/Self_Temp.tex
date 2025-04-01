@@ -1,5 +1,10 @@
 \documentclass[12pt]{article}
 
+% \usepackage[utf8]{inputenc}
+% \usepackage[english]{babel}
+
+% \setlength{\headheight}{14.49998pt}
+
 \usepackage{enumerate}
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -11,14 +16,26 @@
 \usepackage{fancyhdr}
 \usepackage{enumitem}
 \usepackage{amssymb}
+\usepackage{authblk}
+\usepackage{hyperref}
 \usepackage{subcaption}
+\usepackage{verbatim}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{xcolor}
+\usepackage{threeparttable}
+
+% Ensure the citation resources is in BibTeX format and the file name is citation.bib under the same directory.
+%\usepackage[style=apa]{biblatex}
+
+%\addbibresource{citation.bib}
 
 % Used to change the section number specifically
 % \newcommand{\mysection}[2]{\setcounter{section}{#1}\addtocounter{section}{-1}\section{Question #1}}
 % \mysection{2}{Question 2}
 
 \fancyhf{}
-
 
 \geometry{a4paper}
 \geometry{left = 2cm}
@@ -57,5 +74,14 @@
 \setcounter{page}{1}
 
 \section{Sample Section}
+
+% To print the reference
+\printbibliography
+
+\newpage
+
+% Add appendix
+\appendix
+\section*{Appendix A: Sample Appendix}
 
 \end{document}
