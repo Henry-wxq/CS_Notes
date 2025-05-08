@@ -31,8 +31,12 @@
         3. DataSpell
         4. VScode
         5. Rstudio
+        6. Webstorm
+        7. ollama
+        8. docker
       
-        `brew install --cask pycharm intellij-idea dataspell visual-studio-code rstudio`
+        `brew install --cask pycharm intellij-idea dataspell visual-studio-code rstudio webstorm`
+        `brew install docker`
 3. Enviroment Setting
    1. Git
 
