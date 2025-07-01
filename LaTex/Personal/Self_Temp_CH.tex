@@ -1,0 +1,87 @@
+% !TEX program = xelatex
+\documentclass[hyperref,a4paper,UTF8]{ctexart}
+
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry}
+
+\usepackage[unicode=true,colorlinks,urlcolor=blue,linkcolor=blue,bookmarksnumbered=true]{hyperref}
+\usepackage{latexsym,amssymb,amsmath,amsbsy,amsopn,amstext,amsthm,amsxtra,color,bm,calc,ifpdf}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\usepackage{pythonhighlight}
+
+\fancyhf{}
+
+\geometry{a4paper}
+\geometry{left = 2cm}
+\geometry{right = 2cm}
+\geometry{top = 3cm}
+\geometry{bottom = 3cm}
+
+\pagestyle{fancy}
+\lhead{左边页眉}
+\rhead{右边页眉}
+\cfoot{\thepage}
+
+\title{Latex Template \\
+\begin{large} 
+  Subtitle
+\end{large} 
+}
+
+\author{魏炫麒}
+
+\date{\today}
+
+
+\begin{document}
+
+% Figure at the first page
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=0.35\textwidth]{figures/Temp_Figure.png}
+% \end{figure}
+
+\maketitle
+
+% Abstract If neede
+% \begin{abstract}
+
+% 在此填写摘要内容
+
+% \end{abstract}
+
+% \
+\newpage
+\tableofcontents
+
+\thispagestyle{empty} % 当前页不显示页码
+\newpage
+
+
+\section{第一部分：引言}
+
+在此填写引言
+
+
+\section{第二部分}
+
+% 引用样例
+% 以下是一些样例：\cite{Author2020}
+
+
+
+% 引用样式设置
+% 同一个文件夹层级下写references.bib
+% \bibliography{references} % 使用你的.bib文件名，不包含扩展名
+% \bibliographystyle{plain} % 选择引用样式，可以根据需求选择不同的样式
+
+
+\end{document}
