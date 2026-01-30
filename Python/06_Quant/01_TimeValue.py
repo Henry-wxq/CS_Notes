@@ -17,6 +17,8 @@ def present_continuous_value(x, r, t):
     return x*exp(-r*t)
 
 
+
+
 if __name__ == '__main__':
 
     # value of investment in dollars
